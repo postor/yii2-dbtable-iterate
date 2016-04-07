@@ -46,3 +46,28 @@ class HelloController extends Controller
 }
 
 ```
+result 效果:
+------
+
+```shell
+
+F:\xampp\htdocs\yii2postor\1>yii hello
+1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,
+F:\xampp\htdocs\yii2postor\1>yii hello
+1,3,4,5,6,
+F:\xampp\htdocs\yii2postor\1>yii hello
+5,6,7,8,9,
+
+```
+
+params 参数说明:
+------
+
+ActiveQuery $query: the query to get rows取数据的查询
+
+function $callback: each row will be pass into it查出来的每行都会传入这个回调
+
+int pageSize: get pageSize rows from db each time每次从数据库取出这么多
+
+
+
