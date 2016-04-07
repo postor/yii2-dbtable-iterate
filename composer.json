@@ -1,0 +1,25 @@
+{
+    "name": "postor/yii2-dbtable-iterate",
+    "description": "iterate rows from table",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "yii 2", "table", "iterate"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "LinYanjun",
+            "email": "postor@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/postor/yii2-dbtable-iterate/issues?state=open",
+        "source": "https://github.com/postor/yii2-dbtable-iterate"
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "postor\\dbtableiterate\\": ""
+        }
+    }
+}
